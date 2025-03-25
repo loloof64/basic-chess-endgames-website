@@ -19,7 +19,7 @@ export async function GET(request: Request) {
     return new NextResponse(JSON.stringify({ content: content }), {
       status: 200,
     });
-  } catch (error) {
+  } catch {
     return new NextResponse(
       "Error while trying to read sample : is the name correct ?",
       { status: 500 }

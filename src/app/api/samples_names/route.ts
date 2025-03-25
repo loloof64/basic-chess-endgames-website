@@ -1,7 +1,7 @@
 import { additionalSamples } from "@/app/additional_samples/page";
 
 // Get all samples names, witohut the extension
-export async function GET(request: Request) {
+export async function GET() {
   const namesWithoutExtension = additionalSamples.map((sample) => {
     const path = sample.path;
     const lastPathSegment = path.split("/").pop();
