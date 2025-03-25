@@ -1,4 +1,4 @@
-import { additionalSamples } from "@/app/additional_samples/page";
+import { additionalSamples } from "@/app/data/samples_definitions";
 
 // Get all samples names, witohut the extension
 export async function GET() {
@@ -7,7 +7,7 @@ export async function GET() {
     const lastPathSegment = path.split("/").pop();
     const name = lastPathSegment?.replace(".txt", "");
     return name;
-});
+  });
   return new Response(JSON.stringify({ names: namesWithoutExtension }), {
     status: 200,
   });

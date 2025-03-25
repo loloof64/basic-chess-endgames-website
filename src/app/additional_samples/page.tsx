@@ -1,15 +1,5 @@
 import { useTranslations } from "next-intl";
-
-export const additionalSamples = [
-  {
-    captionKey: "Samples.qk_rk",
-    path: "/scripts/qk_rk.txt",
-  },
-  {
-    captionKey: "Samples.nbk_k",
-    path: "/scripts/nbk_k.txt",
-  },
-];
+import { additionalSamples } from "@/app/data/samples_definitions";
 
 export default function AdditionalSamplesPage() {
   const t = useTranslations();
@@ -24,7 +14,11 @@ export default function AdditionalSamplesPage() {
         <ol className="px-12 list-decimal">
           {additionalSamples.map((sample) => (
             <li key={sample.path}>
-              <a href={sample.path} download className="underline text-blue-400">
+              <a
+                href={sample.path}
+                download
+                className="underline text-blue-400"
+              >
                 {t(sample.captionKey)}
               </a>
             </li>
