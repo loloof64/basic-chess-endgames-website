@@ -1,9 +1,14 @@
 {
-    "HomePage": {
-        "welcome": "Bienvenido a la página web del proyecto 'Basic chess endgames'.",
-        "description_1": "Genera posiciones de ajedrez desde scripts integrados.",
-        "description_2": "Prueba a ti mismo en la posición generada contra el motor.",
-        "description_3": "Escribe tus propios scripts en el lenguaje Lua.",
-        "description_4": "Descarga scripts adicionales de la página web."
-    }
+  "HomePage": {
+    "welcome": "Bienvenido a la página web del proyecto 'Basic chess endgames'.",
+    "description_1": "Genera posiciones de ajedrez desde scripts integrados.",
+    "description_2": "Prueba a ti mismo en la posición generada contra el motor.",
+    "description_3": "Escribe tus propios scripts en el lenguaje Lua.",
+    "description_4": "Descarga scripts adicionales de la página web."
+  },
+  "PrivacyPolicyPage": {
+    "description_1": "Esta página se utiliza para informarle sobre las políticas con el recopilación, uso y divulgación de información personal para la aplicación, Finales Básicos de Ajedrez. Laurent Bernabe respeta la privacidad de usuarios y se compromete a proteger la información del usuario, ya sea el tuyo o el de tus hijos. Creo que tienes derecho a conocer mi prácticas con respecto a la información que puedo recopilar y usar cuando usted usa mi aplicación.",
+    "description_2": "La privacidad de los usuarios de mis productos es importante para mí. No colecciono ninguna información identificable sobre mis usuarios. No almaceno ni transmito cualquier información personal.",
+    "description_3": "Si tiene alguna pregunta sobre esta Política de privacidad, comuníquese con yo en laurent.bernabe@gmail.com."
+  }
 }
