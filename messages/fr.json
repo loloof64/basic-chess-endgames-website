@@ -2,7 +2,8 @@
   "Menu": {
     "home": "Accueil",
     "privacy_policy": "Politique de confidentialité",
-    "use_conditions": "Conditions d'utilisation"
+    "use_conditions": "Conditions d'utilisation",
+    "additional_samples": "Exemples additionnels"
   },
   "HomePage": {
     "welcome": "Bienvenue sur le site web du projet 'Basic chess endgames'.",
@@ -20,5 +21,13 @@
   "UseConditionsPage": {
     "title": "Conditions d'utilisation",
     "description": "Aucune condition d'utilisation particulière n'est requise pour Finales d'Echecs Basiques. Cette application est uniquement destinée à aider les joueurs d'échecs pour améliorer leur jeu, et n'inclut aucun contenu qui pourrait être nuisible, violent ou choquant."
+  },
+  "AdditionalSamplesPage": {
+    "title": "Exemples additionnels",
+    "description": "Les exemples suivants sont disponibles pour le telechargement:"
+  },
+  "Samples": {
+    "qk_rk": "Dame et roi | Tour et roi",
+    "nbk_k": "Cavalier, Fou et Roi | Roi"
   }
 }

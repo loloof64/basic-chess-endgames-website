@@ -2,7 +2,8 @@
   "Menu": {
     "home": "Home",
     "privacy_policy": "Privacy Policy",
-    "use_conditions": "Use conditions"
+    "use_conditions": "Use conditions",
+    "additional_samples": "Additional samples"
   },
   "HomePage": {
     "welcome": "Welcome to the website of the 'Basic chess endgames' projet.",
@@ -20,5 +21,13 @@
   "UseConditionsPage": {
     "title": "Use conditions",
     "description": "No particular use condition is required for Basic Chess Endgames. This application is only targeted to help chess players to improve their play, and do not include any content that could be harmful, violent or shocking."
+  },
+  "AdditionalSamplesPage": {
+    "title": "Additional samples",
+    "description": "The following samples are available for download:"
+  },
+  "Samples": {
+    "qk_rk": "Queen and king | Rook and king",
+    "nbk_k": "Knight, Bishop and King | King"
   }
 }

@@ -20,6 +20,11 @@ const pages: Page[] = [
     name: "Use conditions",
     translationKey: "Menu.use_conditions",
   },
+  {
+    path: "/additional_samples",
+    name: "Additional samples",
+    translationKey: "Menu.additional_samples",
+  }
 ];
 
 export default pages;

@@ -6,6 +6,7 @@ import { Bars4Icon } from "@heroicons/react/16/solid";
 
 import pages from "@/app/ui/pages";
 import { useTranslations } from "next-intl";
+import Link from "next/link";
 
 export default function ResponsiveNavbar() {
   const [isMobile, setIsMobile] = useState(false);
@@ -31,9 +32,9 @@ export default function ResponsiveNavbar() {
       ) : (
         <div className="flex gap-4">
           {pages.map((page) => (
-            <a key={page.path} href={page.path}>
+            <Link key={page.path} href={page.path}>
               {t(page.translationKey)}
-            </a>
+            </Link>
           ))}
         </div>
       )}

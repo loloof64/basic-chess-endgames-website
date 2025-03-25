@@ -2,7 +2,8 @@
   "Menu": {
     "home": "Inicio",
     "privacy_policy": "Política de privacidad",
-    "use_conditions": "Condiciones de uso"
+    "use_conditions": "Condiciones de uso",
+    "additional_samples": "Ejemplos adicionales"
   },
   "HomePage": {
     "welcome": "Bienvenido a la página web del proyecto 'Basic chess endgames'.",
@@ -19,5 +20,13 @@
   "UseConditionsPage": {
     "title": "Condiciones de uso",
     "description": "No se requiere una condición de uso particular para Finales Básicos de Ajedrez. Esta aplicación solo está destinada a ayudar a los jugadores de ajedrez para mejorar su juego y no incluir ningún contenido que pueda ser dañino, violento o impactante."
+  },
+  "AdditionalSamplesPage": {
+    "title": "Ejemplos adicionales",
+    "description": "Los siguientes ejemplos están disponibles para descargar:"
+  },
+  "Samples": {
+    "qk_rk": "Reina y rey | Torre y rey",
+    "nbk_k": "Caballo, Alfil y Rey | Rey"
   }
 }

@@ -2,6 +2,7 @@
 
 import { useTranslations } from "next-intl";
 import pages from "@/app/ui/pages";
+import Link from "next/link";
 
 export default function SideNav({ close }: { close: () => void }) {
   const t = useTranslations();
@@ -14,7 +15,7 @@ export default function SideNav({ close }: { close: () => void }) {
         <ul className="mt-2 space-y-2 text-gray-600">
           {pages.map((page) => (
             <li key={page.path}>
-              <a href={page.path}>{t(page.translationKey)}</a>
+              <Link href={page.path}>{t(page.translationKey)}</Link>
             </li>
           ))}
         </ul>
