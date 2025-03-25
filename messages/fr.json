@@ -1,0 +1,9 @@
+{
+    "HomePage": {
+        "welcome": "Bienvenue sur le site web du projet 'Basic chess endgames'.",
+        "description_1": "Générez des positions d'échecs à partir de scripts intégrés.",
+        "description_2": "Testez-vous-même dans la position générée contre le moteur.",
+        "description_3": "Écrivez vos propres scripts en langage Lua.",
+        "description_4": "Téléchargez des scripts supplémentaires depuis le site web."
+    }
+}

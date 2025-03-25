@@ -1,0 +1,9 @@
+{
+    "HomePage": {
+        "welcome": "Bienvenido a la página web del proyecto 'Basic chess endgames'.",
+        "description_1": "Genera posiciones de ajedrez desde scripts integrados.",
+        "description_2": "Prueba a ti mismo en la posición generada contra el motor.",
+        "description_3": "Escribe tus propios scripts en el lenguaje Lua.",
+        "description_4": "Descarga scripts adicionales de la página web."
+    }
+}
