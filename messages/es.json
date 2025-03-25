@@ -1,4 +1,9 @@
 {
+  "Menu": {
+    "home": "Inicio",
+    "privacy_policy": "Política de privacidad",
+    "use_conditions": "Condiciones de uso"
+  },
   "HomePage": {
     "welcome": "Bienvenido a la página web del proyecto 'Basic chess endgames'.",
     "description_1": "Genera posiciones de ajedrez desde scripts integrados.",

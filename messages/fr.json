@@ -1,4 +1,9 @@
 {
+  "Menu": {
+    "home": "Accueil",
+    "privacy_policy": "Politique de confidentialité",
+    "use_conditions": "Conditions d'utilisation"
+  },
   "HomePage": {
     "welcome": "Bienvenue sur le site web du projet 'Basic chess endgames'.",
     "description_1": "Générez des positions d'échecs à partir de scripts intégrés.",
