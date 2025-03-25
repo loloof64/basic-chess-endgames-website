@@ -1,7 +1,6 @@
 import { additionalSamples } from "@/app/data/samples_definitions";
 import path from "path";
 import fs from "fs/promises";
-import { debug } from "console";
 
 const acceptedLocales = ["en", "fr", "es"];
 
