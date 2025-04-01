@@ -6,19 +6,19 @@ const cardsImages: { [key: string]: string[] } = {
     "/images/features/samples_en.png",
     "/images/features/game_en.png",
     "/images/features/script_en.png",
-    "/images/features/samples_en.png",
+    "/images/features/download_en.png",
   ],
   es: [
     "/images/features/samples_es.png",
     "/images/features/game_es.png",
     "/images/features/script_es.png",
-    "/images/features/samples_es.png",
+    "/images/features/download_es.png",
   ],
   fr: [
     "/images/features/samples_fr.png",
     "/images/features/game_fr.png",
     "/images/features/script_fr.png",
-    "/images/features/samples_fr.png",
+    "/images/features/download_fr.png",
   ],
 };
 
