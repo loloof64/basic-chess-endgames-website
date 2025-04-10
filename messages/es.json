@@ -27,6 +27,8 @@
   },
   "Samples": {
     "qk_rk": "Reina y rey | Torre y rey",
-    "nbk_k": "Caballo, Alfil y Rey | Rey"
+    "nbk_k": "Caballo, Alfil y Rey | Rey",
+    "qk_pk": "Reina y rey | Peon y rey",
+    "rk_bk": "Torre y rey | Alfil y rey"
   }
 }

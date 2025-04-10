@@ -28,6 +28,8 @@
   },
   "Samples": {
     "qk_rk": "Queen and king | Rook and king",
-    "nbk_k": "Knight, Bishop and King | King"
+    "nbk_k": "Knight, Bishop and King | King",
+    "qk_pk": "Queen and king | Pawn and king",
+    "rk_bk": "Rook and king | Bishop and king"
   }
 }

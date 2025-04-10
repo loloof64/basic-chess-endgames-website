@@ -28,6 +28,8 @@
   },
   "Samples": {
     "qk_rk": "Dame et roi | Tour et roi",
-    "nbk_k": "Cavalier, Fou et Roi | Roi"
+    "nbk_k": "Cavalier, Fou et Roi | Roi",
+    "qk_pk": "Dame et roi | Pion et roi",
+    "rk_bk": "Tour et roi | Fou et roi"
   }
 }

@@ -1,0 +1,88 @@
+# player king constraints
+
+
+
+onRightFile = (file == FileB) or (file == FileG)
+onRightRank = (rank == Rank3) or (rank == Rank6)
+
+result = onRightFile and onRightRank
+
+@@@@@@
+
+# computer king constraints
+
+
+
+onRightFile = (file == FileB) or (file == FileG)
+onRightRank = (rank == Rank1) or (rank == Rank8)
+
+result = onRightFile and onRightRank
+
+@@@@@@
+
+# kings mutual constraints
+
+
+
+onSameFile = playerKingFile == computerKingFile
+areDistantByTwoRanks = math.abs(playerKingRank - computerKingRank) == 2
+
+result = onSameFile and areDistantByTwoRanks
+
+@@@@@@
+
+# other pieces counts
+
+
+
+
+
+
+
+player rook : 1
+computer bishop : 1
+
+@@@@@@
+
+# other pieces global constraints
+
+[computer bishop]
+
+
+
+computerKingOnWhiteCell = (computerKingFile+computerKingRank)%2 > 0
+computerBishopOnWhiteCell = (file+rank)%2 > 0
+
+if (computerKingFile == FileG) then  
+    onDifferentColumnThanPlayerRook = (file ~= FileF)
+else
+    onDifferentColumnThanPlayerRook = (file ~= FileC)
+end
+
+cannotBeEatenByPlayerKing = math.abs(file-playerKingFile) >= 2 or math.abs(rank-playerKingRank) >= 2
+
+
+result =( computerKingOnWhiteCell ~= computerBishopOnWhiteCell) and onDifferentColumnThanPlayerRook and cannotBeEatenByPlayerKing
+
+€€€
+
+[player rook]
+
+
+if (computerKingFile == FileG) then  
+    onRightFile = (file == FileF)
+else
+   onRightFile = (file == FileC)
+end
+
+result = onRightFile
+
+€€€
+
+
+
+@@@@@@
+
+# goal
+
+win

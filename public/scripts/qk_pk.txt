@@ -1,0 +1,82 @@
+# player king constraints
+
+
+
+
+if playerHasWhite then
+   isRightRank = (rank == Rank8)
+else
+   isRightRank = (rank == Rank1)
+end
+
+result = isRightRank
+
+@@@@@@
+
+# computer king constraints
+
+
+
+if playerHasWhite then
+   isRightRank = (rank == Rank2)
+else
+   isRightRank = (rank == Rank7)
+end
+
+result = isRightRank
+
+@@@@@@
+
+# other pieces counts
+
+
+
+
+
+
+player queen : 1
+computer pawn : 1
+
+@@@@@@
+
+# other pieces global constraints
+
+[computer pawn]
+
+
+
+
+
+isOnLoosingFile = (file == FileB) or (file == FileD) or (file == FileE) or (file == FileG)
+isNearComputerKingFile = math.abs(computerKingFile - file) == 1
+isRightFile = isOnLoosingFile and isNearComputerKingFile
+
+if playerHasWhite then
+   isRightRank = (rank == Rank2)
+else
+   isRightRank = (rank == Rank7)
+end
+
+result = isRightFile and isRightRank
+
+€€€
+
+[player queen]
+
+if playerHasWhite then
+   isRightRank = (rank == Rank7)
+else
+  isRightRank = (rank == Rank2)
+end
+
+result = isRightRank
+
+€€€
+
+
+
+@@@@@@
+
+# goal
+
+win
